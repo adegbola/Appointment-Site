@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<head> 
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+	<link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
+	<script src="js/jquery-2.2.4.min.js"></script>
+	<script src="js/script.js"></script>
+	<title> Appointment Page</title>
+</head>
+<body>
+	<div class="container">
+	<p> Welcome to Kolat's Global Site. Please fill the necessary information to book your appointment</p>
+
+	<form id="blank">
+	<div class="form-group">
+	<label for="FirstName">FirstName</label>
+	<input id="FirstName" class="form-control"  type="text">
+	 </div>
+
+	 <div class="form-group">
+	<label for="LastName">LastName</label>
+	<input id="LastName" class="form-control"  type="text">
+	 </div>
+
+	 <div class="form-group">
+	<label for="Description">Description</label>
+	<input id="Description" class="form-control"  type="text">
+	 </div>
+	<div class="form-group">
+	<label for="Date">Date</label>
+	<input id="Date" class="form-control"  type="date">
+	 </div>
+
+	 <div class="form-group">
+	<label for="starttime">StartTime</label>
+	<input id="starttime" class="form-control" type="text">
+	 </div>
+
+	 <div class="form-group">
+	<label for="EndTime">EndTime</label>
+	<input id="EndTime" class="form-control"  type="text">
+	 </div>
+
+	 <button type="Submit" class="btn btn-default"  type="button">Book</button>
+	 </form>
+
+	 </div>
+
+	 <div id="message">
+	 <p>Thank you <span class="FirstName"></span> <span class="LastName"></span> for booking an appointment for <span class="Description"></span> on <span class="Date"></span> from <span class="starttime"></span> to <span class="EndTime"></span></p>
+	 </div>
+	 
+
+</div>
+</body>
+
+</html>
